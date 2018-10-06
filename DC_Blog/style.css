@@ -1,0 +1,32 @@
+
+/*Calls All parents elements */
+header > * {
+    padding: 10px;
+    display: inline-block;   
+}
+
+header {
+    padding-left: 300px;
+}
+
+/*telling child elements to be inline block */
+h1 {
+    display: inline-block;
+}
+
+ul > li {
+    display: inline-block;
+    margin: 20px;
+    font-size: 14pt;
+}
+
+.middleSection {
+    text-align: center;
+}
+
+.buttonLink {
+    border: 1px solid blue;
+    width: auto;
+    height: auto;
+}
+
